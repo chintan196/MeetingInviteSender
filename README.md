@@ -1,7 +1,7 @@
 # MeetingInviteSender
 This repository contains a small project (dotnet core 3.1) to send meeting invites to list of participants using Microsoft or Google as SMTP.
 
-It also has a logic to transform C# entity to any string content from C# Objects/Entities. (This can be used to generate ICS Calender Invites and HTML Body for emails)
+It has logic to transform C# entity to any string content from C# Objects/Entities. - XSLT Transformation (This can be used to generate ICS Calender Invites and HTML Body for emails)
 
 Owner of this project : Chintan Desai - chintansdesai@gmail.com
 Email template reference: These templates are defined using reference from "Internet Calendaring and Scheduling Core Object Specification"
