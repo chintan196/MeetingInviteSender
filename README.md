@@ -3,8 +3,7 @@ This repository contains a small project (dotnet core 3.1) to send meeting invit
 
 Meeting Invitations sent using this utility are parsed and displayed properly. I have verified this with Gmail Web and Outlook Web and Windows versions. 
 
-- XSLT Transformation
-This project also demonstrates the logic to transform C# object(s) to string content using XSLT Templates.
+XSLT Transformation - This project also demonstrates the logic to transform C# object(s) to string content using XSLT Templates.
 This can be used to generate template based items like ICS Calender Invites and HTML Body for emails.
 
 Meeting Template Reference: Meeting templates defined under the project are defined by having some references from "Internet Calendaring and Scheduling Core Object Specification".
