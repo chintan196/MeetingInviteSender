@@ -1,6 +1,6 @@
 # MeetingInviteSender
 This repository contains a small project (dotnet core 3.1) to send meeting invites to list of participants using Microsoft or Google as SMTP.
-Meeting Invitations sent using this utility are parsed and displayed properly. I have verified this with Gmail Web and Outlook Web and Window versions. 
+Meeting Invitations sent using this utility are parsed and displayed properly. I have verified this with Gmail Web and Outlook Web and Windows versions. 
 
 This project also has logic to transform C# entity to any string content from C# Objects/Entities. - XSLT Transformation (This can be used to generate ICS Calender Invites and HTML Body for emails)
 
