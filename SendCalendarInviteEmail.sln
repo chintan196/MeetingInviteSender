@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendCalendarInviteEmail", "SendCalendarInviteEmail.csproj", "{7398E5EF-CC21-4161-9F25-F234537B705D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7398E5EF-CC21-4161-9F25-F234537B705D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7398E5EF-CC21-4161-9F25-F234537B705D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7398E5EF-CC21-4161-9F25-F234537B705D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7398E5EF-CC21-4161-9F25-F234537B705D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B177B6BB-C352-4BE8-A473-796410067493}
+	EndGlobalSection
+EndGlobal
