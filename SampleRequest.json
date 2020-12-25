@@ -1,0 +1,23 @@
+{
+  "organiser": {
+    "name": "Chintan Desai (outlook)",
+    "email": "youroutlookemail@microsoftdomain.com",
+    "role": 1
+  },
+  "participants": [
+    {
+      "name": "Person 1",
+      "email": "person1@anydomain.com",
+      "role": 1
+    },
+    {
+      "name": "Person 2",
+      "email": "person2@anydomain.com",
+      "role": 2
+    }
+  ],
+  "subject": "Test Meeting with Microsoft SMTP",
+  "body": "<!DOCTYPE html><html><body><h2>Meeting Agenda</h2><ul>  <li>Item 1</li>  <li>Item 2</li>  <li>Item 3</li></ul>  <h2>Meeting Agenda 2</h2><ol>  <li>Item 1</li>  <li>Item 2</li></ol></body></html>",
+  "startTime": "2020-12-25T12:00:00.000Z",
+  "endTime": "2020-12-25T12:15:00.000Z"
+}

@@ -27,11 +27,6 @@ namespace SendCalendarInviteEmail.Controllers
         [HttpPost("Send/smtp/{smtp}")]
         public IActionResult SendInvite([FromRoute]SmtpType smtp, [FromBody]MeetingDetail meeting)
         {
-            if (smtp == default)
-            {
-                return BadRequest("Given SMTP Not supported");
-            }
-
             _sender.SendEmail(smtp, meeting);
             return Ok("Meeting invitation sent!");
         }

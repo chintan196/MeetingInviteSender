@@ -9,7 +9,8 @@ ORGANIZER;CN=<xsl:value-of select="MeetingDetail/Organiser/Email"/>:mailto:<xsl:
 <xsl:for-each select="MeetingDetail/Participants/Participant">
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=<xsl:value-of select="RoleTag"/>;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=<xsl:value-of select="Email"/>:mailto:<xsl:value-of select="Email"/>
 </xsl:for-each>
-DESCRIPTION;LANGUAGE=en-US:<xsl:value-of select="MeetingDetail/Body"/>
+DESCRIPTION;LANGUAGE=en-US:{#BODY}
+X-ALT-DESC;FMTTYPE=text/html:{#BODY}
 UID:<xsl:value-of select="MeetingDetail/MeetingUniqueId"/>@outlook.com
 SUMMARY;LANGUAGE=en-US:<xsl:value-of select="MeetingDetail/Subject"/>
 DTSTART:<xsl:value-of select="MeetingDetail/StartTimeString"/>

@@ -14,7 +14,8 @@ UID:<xsl:value-of select="MeetingDetail/MeetingUniqueId"/>@gmail.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=<xsl:value-of select="RoleTag"/>;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=<xsl:value-of select="Name"/>;X-NUM-GUESTS=0:mailto:<xsl:value-of select="Email"/>
 </xsl:for-each>
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE;CN=<xsl:value-of select="MeetingDetail/Organiser/Name"/>;X-NUM-GUESTS=0:mailto:<xsl:value-of select="MeetingDetail/Organiser/Email"/>
-DESCRIPTION:<xsl:value-of select="MeetingDetail/Body"/>
+DESCRIPTION:{#BODY}
+X-ALT-DESC;FMTTYPE=text/html:{#BODY}
 LAST-MODIFIED:<xsl:value-of select="MeetingDetail/ScheduleTimeString"/>
 CLASS:PUBLIC
 SEQUENCE:0

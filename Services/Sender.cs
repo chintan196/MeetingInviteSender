@@ -6,7 +6,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Mail;
 using System.Net.Mime;
-using System.Text;
+using System.Text.Encodings.Web;
 using System.Text.RegularExpressions;
 using System.Xml.Serialization;
 
@@ -27,6 +27,8 @@ namespace SendCalendarInviteEmail.Services
 
             // Get ICS file specific to SMTP
             var ics = TransformAndConvertIcs(meeting, smtpDetails.SmtpType);
+            // replace body and html body in ics
+            ics = ics.Replace("{#BODY}", System.Web.HttpUtility.HtmlDecode(meeting.Body));
 
 
             // Prepare mail
